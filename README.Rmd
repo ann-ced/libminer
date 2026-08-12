@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # libminer
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/ann-ced/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ann-ced/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup. It is a toy
@@ -39,5 +40,5 @@ optionally with the total sizes, use the `lib_summary()` function:
 library(libminer)
 lib_summary()
 # specify `sizes = TRUE` to calculate the total size on disk of your packages
-#lib_summary(sizes = TRUE)
+lib_summary(sizes = TRUE)
 ```
